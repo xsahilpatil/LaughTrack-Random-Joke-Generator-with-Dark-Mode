@@ -23,5 +23,5 @@ LaughTrack is a simple and fun random joke generator app that uses the [JokeAPI]
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/xsahilpatil63/laughtrack.git
+   git clone https://github.com/xsahilpatil/laughtrack.git
    cd laughtrack
