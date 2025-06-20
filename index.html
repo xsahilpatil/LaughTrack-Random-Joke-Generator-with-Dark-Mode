@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joke Generator 😂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>😂 Joke Generator</h1>
+
+    <!-- Theme Toggle -->
+    <div class="theme-switch-wrapper">
+      <label class="theme-switch">
+        <input type="checkbox" id="toggleTheme" />
+        <span class="slider">
+          <span class="toggle-icon">🌞</span>
+        </span>
+      </label>
+    </div>
+
+    <!-- Joke Output -->
+    <div class="joke-box" id="jokeBox">
+      <p id="jokeText">Click "Get Joke" to laugh! 🤣</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button id="getJoke">Get Joke</button>
+      <button id="copyJoke">📋 Copy</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
